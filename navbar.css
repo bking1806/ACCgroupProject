@@ -2,23 +2,34 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: candyfont;
+    src: url(assets/candy-shop-font/CandyShopBlackPersonalUse-arBa.ttf);
+}
+
 .navbar ul{
     list-style-type: none;
-    background-color: rgb(56, 56, 56);
+    background-color: rgb(231, 154, 255);
     padding: 10px;
     overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    font-family: candyfont;
+    font-size: 2em;
+    height: 100px;
 }
 
 .navbar a{
     text-decoration: none;
-    color: white;
+    color: rgb(255, 0, 242);
+    text-shadow: 2px 2px 3px black;
     padding: 15px;
     display: block;
     text-align: center;
 }
 
 .navbar a:hover{
-    color:blue;
+    color: rgb(195, 0, 255);
 }
 
 .navbar li{
@@ -29,18 +40,19 @@
 
 .navbar li:hover{
     display: inline-block;
-    background-color:grey
+    border-radius: 50px;
+    background-color:rgb(255, 122, 233)
 }
 
 #search{
     background-color: transparent;
     color: white;
     border: 2px solid black;
-    padding: 0.5rem 1rem;
     border-radius: 20px;
-    float: right;
     text-align: center;
-    margin-top: 5px;
+    margin: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 #search:focus{

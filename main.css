@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: candyfont;
+    src: url(assets/candy-shop-font/CandyShopBlackPersonalUse-arBa.ttf);
+}
+
+body{
+    background-image: url(assets/snackbackground.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+body {
+    margin: 0;
+    overflow: hidden;
+    background-color: #f0f0f0;
+}
+.snack {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    z-index: -1;
+}
+
+h1{
+    font-family: candyfont;
+    text-align: center;
+    font-size: 5em;
+    font-weight: 200;
+    color: red;
+    text-shadow: 3px 3px 3px black;
+}
